@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+}
+group = 'com.jhw.modules.console'
+
+//mainClassName = 'com.jhw.modules.console.Console.Main'
+
+repositories {
+    jcenter()
+    mavenCentral()
+}
+
+compileJava{//agregar C:\Program Files\NetBeans-12.0\netbeans\etc\netbeans.conf -> netbeans_default_options += -J-Dfile.encoding=UTF-8
+    options.encoding='UTF-8'
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.13'
+        
+    implementation project(':utils')
+    implementation project(':clean-core')
+    implementation project(':clean-swing')
+    implementation project(':material-swing')
+}
