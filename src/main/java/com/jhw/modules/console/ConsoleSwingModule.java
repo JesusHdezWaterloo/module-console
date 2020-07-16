@@ -15,12 +15,12 @@ public class ConsoleSwingModule implements AbstractSwingModule {
 
     @Override
     public void register(AbstractSwingApplication app) {
-        registerTecnologyElements(app);
+        registerConsole(app);
         System.out.println("Bienvenido a la consola..... ☺");
         System.out.println("Aqui se ve todo el trabajo en background del sistema.");
     }
 
-    private void registerTecnologyElements(AbstractSwingApplication app) {
+    private void registerConsole(AbstractSwingApplication app) {
         DashBoardSimple dash = app.rootView().dashboard();
         dash.addKeyValue(DashboardConstants.UP_ELEMENT, new AbstractAction("Consola", MaterialIcons.DEVELOPER_BOARD.deriveIcon(MaterialColors.WHITE)) {
             @Override
