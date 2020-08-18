@@ -5,7 +5,7 @@
  */
 package com.jhw.modules.console;
 
-import com.jhw.swing.material.standars.MaterialIcons;
+import com.jhw.swing.material.standards.MaterialIcons;
 import com.jhw.swing.util.Utils;
 import java.awt.BorderLayout;
 import java.awt.Dimension;
