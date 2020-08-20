@@ -13,6 +13,14 @@ public class ConsoleSwingModule implements AbstractSwingMainModule {
 
     public static final ConsoleFrame consoleFrame = new ConsoleFrame();
 
+    private ConsoleSwingModule() {
+    }
+
+    public static ConsoleSwingModule init() {
+        System.out.println("Iniciando 'Consola'");
+        return new ConsoleSwingModule();
+    }
+
     @Override
     public void register(AbstractSwingApplication app) {
         registerConsole(app);
