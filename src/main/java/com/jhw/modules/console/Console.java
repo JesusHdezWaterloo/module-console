@@ -24,7 +24,7 @@ public class Console extends _MaterialTextArea {
         OutputStream out = new OutputStream() {
             @Override
             public void write(int b) throws IOException {
-                getTextArea().append(String.valueOf((char) b));
+                setObject(getObject() + String.valueOf((char) b));
             }
         };
         PrintStream ps = new PrintStream(out);
