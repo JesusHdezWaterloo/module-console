@@ -3,8 +3,6 @@ plugins {
 }
 group = 'com.jhw.modules.console'
 
-//mainClassName = 'com.jhw.modules.console.Console.Main'
-
 repositories {
     jcenter()
     mavenCentral()
@@ -17,13 +15,13 @@ compileJava{//agregar C:\Program Files\NetBeans-12.0\netbeans\etc\netbeans.conf 
 dependencies {
     testImplementation 'junit:junit:4.13'
         
-    implementation project(':utils')
-    implementation project(':clean-core')
+    implementation project(':utils-core')
+    implementation project(':clean-core-full')
     implementation project(':clean-swing')
     
-    implementation project(':derivable-icons')
-    implementation project(':material-standards')
-    implementation project(':material-personalization')
+    implementation project(':swing-derivable_icons')
+    implementation project(':swing-material-standards')
+    implementation project(':module-util-personalization')
     
-    implementation project(':material-swing')
+    implementation project(':swing-material-core')
 }
