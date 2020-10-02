@@ -1,7 +1,8 @@
 plugins {
     id 'java'
 }
-group = 'com.jhw.modules.console'
+
+group = 'com.jhw.module.util'
 
 repositories {
     jcenter()
