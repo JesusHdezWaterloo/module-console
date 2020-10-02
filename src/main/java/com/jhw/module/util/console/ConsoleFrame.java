@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.jhw.modules.console;
+package com.jhw.module.util.console;
 
 import com.jhw.swing.material.standards.MaterialIcons;
 import com.jhw.swing.util.Utils;

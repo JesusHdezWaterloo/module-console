@@ -1,4 +1,4 @@
-package com.jhw.modules.console;
+package com.jhw.module.util.console;
 
 import com.clean.swing.app.AbstractSwingApplication;
 import com.clean.swing.app.DefaultAbstractSwingMainModule;
