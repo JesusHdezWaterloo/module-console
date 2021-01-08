@@ -5,8 +5,8 @@
  */
 package com.jhw.module.util.console;
 
-import com.jhw.swing.material.standards.MaterialIcons;
-import com.jhw.swing.util.Utils;
+import com.root101.swing.material.standards.MaterialIcons;
+import com.root101.swing.util.Utils;
 import java.awt.BorderLayout;
 import java.awt.Dimension;
 import java.awt.HeadlessException;

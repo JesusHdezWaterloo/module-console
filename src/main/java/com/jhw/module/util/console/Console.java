@@ -5,7 +5,7 @@
  */
 package com.jhw.module.util.console;
 
-import com.jhw.swing.material.components.textarea._MaterialTextArea;
+import com.root101.swing.material.components.textarea._MaterialTextArea;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.io.PrintStream;
