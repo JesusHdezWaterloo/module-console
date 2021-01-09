@@ -1,4 +1,3 @@
-
 ## Modulo Util Console
 
 Módulo que agrega en la parte superior derecha del dashboard un boton transparente
